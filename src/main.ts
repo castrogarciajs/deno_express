@@ -1,5 +1,6 @@
 import Express from "npm:express";
 import router from "./routes/routes.ts";
+import './db.ts'
 
 const App = Express();
 
