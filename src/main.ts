@@ -4,6 +4,7 @@ import './db.ts'
 
 const App = Express();
 
+App.use(Express.json())
 App.use(router);
 
 App.listen(3000, () => {

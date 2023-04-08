@@ -10,7 +10,7 @@ const router = Router();
 
 router.get("/", __init__);
 router.post("/", create_task);
-router.put("/", update_task);
-router.delete("/", delete_task);
+router.put("/:id", update_task);
+router.delete("/:id", delete_task);
 
 export default router;
